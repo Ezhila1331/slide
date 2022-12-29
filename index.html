@@ -1,0 +1,192 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>www.old is gold.com</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+
+.table {
+    float:left;
+    width: 33.3%;
+    padding: 20px 20px;
+  }
+  
+ 
+  @media screen and (max-width: 650px) {
+    .table {
+      width: 100%;
+      display: block;
+
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  
+  .box {
+    padding: 0 100px;
+    height: 300px;
+
+  }
+  
+  .box::after, .new::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .group{
+    color:  rgb(250, 155, 13);
+    text-decoration: underline;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding-top: 20px;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+ 
+
+  .h1{
+    text-align: center;
+    color:  rgb(231, 167, 71);
+    text-shadow: 2px 2px 4px #000000;
+    font-size: large;
+  }
+  /*----------------*/
+  .columnn {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+text-align: center;
+}
+
+.rows::after {
+  content: "";
+  clear: both;
+  display: flex;
+}
+  .title{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(231, 167, 71);
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+</style>
+</head>
+
+<body>
+<section>
+  
+  <div class="new">
+    <div class="table">
+      <div class="card">
+      <img src="images/New1.jpg"   />
+        <div class="box">
+        <h2>Wooden Chair</h2>
+        <p class="group">Maxo Fabric Accent Chair In Grey Colour</p>
+        <h4>PRODUCT DETAILS</h4>
+          <ul className="tit">
+              <li>Net Quantity : 1 N</li>
+              <li>Package Contains : 1 Chair</li>
+              <li>Product Dimensions : 97.0 cm x 74.0 cm x 90.0 cm</li>
+              <li>Country of Origin : India</li>
+          </ul>  
+          <h3> From ₹ 8,000</h3>
+          <p><button class="button">BUY</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="table">
+      <div class="card">
+      <img src="images/New2.jpg" alt="sofa" width={300}/>
+        <div class="box">
+        <h2>Sofa</h2>
+        <p class="group">Raymond Wooden Sofa in Teak Finish - Grey Colour</p>
+        <h4>PRODUCT DETAILS</h4>
+          <ul className="tit">
+              <li>Net Quantity : 1 N</li>
+              <li>Sub Category : Wooden Sofa</li>
+              <li>seater Dimensions : 78.0 cm x 121.0 cm x 65.0 cm</li>
+              <li>Country of Origin : India</li>
+          </ul>  
+          <h3> From ₹ 25,199</h3>
+          <p><button class="button">BUY</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="table">
+      <div class="card">
+      <img src="images/New3.jpg" alt="screen" width="300px" height="200px" />
+        <div class= "box">
+          <h2>Curtains</h2>
+          <p class="group">Grey Cotton Semi Sheer Door Curtain</p>
+          <h4>PRODUCT DETAILS</h4>
+          <ul className="tit">
+              <li>Net Quantity : 1 N</li>
+              <li>Package Contains : 1 Curtain</li>
+              <li>Product Dimensions : 178.0 cm x 213.0 cm</li>
+              <li>Country of Origin : India</li>
+          </ul>  
+          <h3> From ₹ 1.199</h3>
+          <p><button class="button">BUY</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<section>
+  <div class="title"> <h1>Value Buys In Furniture
+  </h1></div>
+  <div class="rows">
+    <div class="columnn">
+    <img src="images/bed3.jpg"  href=""/>
+    </div>
+    <div class="columnn">
+    <img src="images/coffee.jpg"/>
+    </div>
+    <div class="columnn">
+    <img src="images/rack.jpg" href="" />
+    </div>
+    <div class="columnn">
+    <img src="images/shelves3.jpg"  href=""/>
+    </div>
+    <div class="columnn">
+    <img src="images/sofa3.jpg"  href=""/>
+    </div>
+    <div class="columnn">
+    <img src="images/tvunit.jpg"  href=""/>
+    </div>
+  </div>
+ 
+</section>
+
+
+</body>
+
+</html>
